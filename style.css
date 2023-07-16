@@ -1,4 +1,224 @@
+/* shared style */
 *{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    margin: 30px 0px 50px 0;
+}
+/* header section style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container h3{
+    color: #131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.menu-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.menu-container li{
+    list-style: none;
+}
+.menu-container li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-title-container{
+    /* padding: 50px; */
+}
+.header-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.header-title-description{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+.bg-img{
+    width: 100%;
+}
+
+
+/* teams section style here */
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 130px;
+    margin-top: 100px;
+}
+.teams-content{
+    margin-left: 75px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-list{
+    color:  #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our{
+    color: var(--dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+}
+.features{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+.teams-description{
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* features section style here */
+.features-title{
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    margin: 30px 0px 24px 0px;
+    padding-left: 24px;
+}
+.features-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.features-container{
+    display: flex;
+}
+.features-cards-container{
+    margin-right: 150px;
+}
+.features-single-card{
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.card-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-description{
+    color: #727272;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+.features-img{
+    width: 90%;
+    margin-right: 240px;
+}
+.ten-years-batch h2{
+    width: 342px;
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+    line-height: 50px;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+.experience-text{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* some fact section style here */
+.some-fact-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.some-fact-content{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 100px;
+}
+
+/* some fact section style here */
+.fact-cards-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+}
+.fact-cards-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 40px;
+}
+.card > h2{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card > p{
+    color:  #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* sponsports section style here */
