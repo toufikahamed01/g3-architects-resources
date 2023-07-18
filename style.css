@@ -22,7 +22,7 @@ header{
     background: rgba(255, 144, 14, 0.10);
 }
 .header{
-    max-width: 1440px;
+    max-width: 80vw;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 45px;
@@ -74,7 +74,7 @@ header{
 
 /* teams section style here */
 main{
-    width: 1440px;
+    max-width: 80vw;
     margin: 0 auto;
 }
 .teams-container{
@@ -98,8 +98,8 @@ main{
     font-weight: 500;
 }
 .of-our{
-    color: var(--dark-01, #131313);
-    font-size: 45px;
+    color: #131313;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 .features{
@@ -156,8 +156,8 @@ main{
     
 }
 .features-img{
-    width: 90%;
-    margin-right: 240px;
+    width: 100%;
+    /* margin-right: 240px; */
 }
 .ten-years-batch h2{
     width: 342px;
@@ -242,13 +242,15 @@ main{
 .sponsors-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 130px;
 }
 
 /* footer section style here */
 .copyright{
+    max-width: 80%;
     background-color: #FFF4E7;
-    margin: 0px 240px 200px 240px;
+    margin: 0px auto 100px;
 }
 .copyright > p{
     color:#424242;
@@ -257,6 +259,7 @@ main{
     font-weight: 400;
     padding: 40px 0px;
 }
-
-
+.hide{
+    display: none;
+}
 
