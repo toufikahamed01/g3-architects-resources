@@ -48,3 +48,30 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container, .teams-container,
+    .features-container, .fact-cards-container, 
+    .sponsors-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header{
+        text-align: center;
+    }
+    .teams-content{
+        text-align: center;
+        margin-left: 0;
+    }
+    .features-cards-container{
+        margin-right: 0px;
+        padding: 30px;
+        text-align: center;
+    }
+    .some-fact-title{
+        text-align: center;
+    }
+    .some-fact-content{
+        text-align: center;
+    }
+}
